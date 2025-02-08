@@ -123,3 +123,9 @@ Add DynamoDB to store user-specific queries and preferences
 Secure the API Gateway using an API key or IAM-based authentication
 Implement CI/CD for automating container deployments
 
+### **Create cluster using cli
+
+aws ecs create-cluster --cluster-name sports-api-cluster
+
+
+
